@@ -1,6 +1,6 @@
 package week2.nationprogram.country;
 
-public class EuropeNation extends nation {
+public class EuropeNation extends Nation {
     // Additional static members for Asian nations
     public static final String REGION = "Europe";
     public String language;

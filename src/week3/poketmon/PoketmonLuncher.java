@@ -12,10 +12,10 @@ public class PoketmonLuncher {
         PoketmonStruct lucario = new PoketmonStruct("Lucario", "myLucario", 60, "악의 파동", 30 , 5, "파동탄", 10, 9);
         PoketmonStruct Garchomp = new PoketmonStruct("Garchomp", "myGarchomp", 60, "파괴광선", 100 , 3, "연속찌르기", 8, 9);
         boolean Traveling = true;
-        while (!Traveling) {
-            System.out.println("1. 모험하기");
-            System.out.println("야생의 누군가가 나타났다.");
-        }
+//        while (!Traveling) {
+//            System.out.println("1. 모험하기");
+//            System.out.println("야생의 누군가가 나타났다.");
+//        }
         pokemonObjectUnitBattle(pikachu, lucario);
 
 
