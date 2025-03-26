@@ -48,6 +48,10 @@ public class PoketmonTrainer {
         System.out.println(newPoketmon.getPoketmonName() +"을 담을 공간이 없습니다.");
         capturedPoketmonList.add(newPoketmon);
         //list<> or ArrayList<>
+        char a  ='9';
+        int b = a-'0';
+        int number = 'A' -65;
+
     }
 
     public void captureNewPokemonInList(PoketmonStruct newPokemon) {
@@ -56,3 +60,7 @@ public class PoketmonTrainer {
         System.out.println(newPokemon.getPoketmonName() +"을 " + currentSize +"번지에 담았습니다." );
     }
 }
+
+
+
+

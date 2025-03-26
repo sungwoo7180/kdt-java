@@ -52,7 +52,7 @@ public class Nation {
         public TravelAgency(Nation agencyNationality) {
             this.agencyNationality = agencyNationality;
         }
-
+        //FeedBack : 메소드 명을 지을때 동사로 시작하는게 좋다. approveTravel
         public void travel_approval (citizen citizen) {
             if(!citizen.nationality.equals(this.agencyNationality)){
                 // immigrationCountry(여행 가는 나라)
